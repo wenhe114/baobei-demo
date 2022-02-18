@@ -23,9 +23,9 @@ export default {
             console.log(r);
             console.log(pages(r));
             let module=await pages(r)
-            console.log(module.default.name);
+            console.log(module.default.cname);
             this.pageRoutes.push({
-                name:module.default.name,
+                name:module.default.cname?module.default.cname:module.default.name,
                 path:r.split(".")[1]
             })
         })

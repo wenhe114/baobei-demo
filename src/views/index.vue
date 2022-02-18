@@ -1,6 +1,6 @@
 <template>
     <div class="route-list">
-        <router-link class="route-item" v-for="(item) in pageRoutes" :key="item.name" :to="{path:item.path}">{{item.name}}</router-link>
+        <!-- <router-link class="route-item" v-for="(item) in pageRoutes" :key="item.name" :to="{path:item.path}">{{item.name}}</router-link> -->
     </div>
 </template>
 
